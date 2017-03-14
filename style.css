@@ -25,6 +25,10 @@ nav a{
 }
 nav a:hover{
 	background-color: #000;
+	border-collapse:separate;
+    border:solid black 0px;
+    border-radius:6px;
+    -moz-border-radius:6px;
 }
 .gorsel{
 	height: 100%;
@@ -62,6 +66,7 @@ z-index: 0;
 .profil_resmi{
 	width: 200px;
 	height: 200px;
+	box-shadow: 5px 5px 5px #888888;
 }
 .yazi h1{
 	color: white;
@@ -77,7 +82,8 @@ z-index: 0;
 #yeteneklerim img{
 	width: 100px;
 	height: 100px;
-	padding-left: 15px;
+	margin-left: 3%;
+	margin-top: 0.3%;
 }
 
 #projelerim h2{
@@ -88,7 +94,6 @@ z-index: 0;
 #proje_tablosu{
 	width: 300px;
 	height: 300px;
-	margin-top: 15px;
 	background-color:white;
 	box-shadow: 5px 5px 5px #888888;
 	border-collapse:separate;
@@ -110,4 +115,21 @@ z-index: 0;
 .projede_kullanilmis{
 	width: 25px;
 	height: 25px;
+}
+#sosyalmedya h2{
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-top: 15px;
+}
+.sosyal_medya_iconl{
+	width: 80px;
+	height: 80px;
+	margin-left: 38%;
+	margin-top: 2%;
+}
+.sosyal_medya_icon{
+	width: 80px;
+	height: 80px;
+	margin-top: 2%;
+
 }
